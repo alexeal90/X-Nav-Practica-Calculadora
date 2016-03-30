@@ -1,0 +1,28 @@
+button {
+    width: 59px;
+    text-align: center;
+}
+
+span {
+    width: 200px;
+    height: 45px;
+    text-align:right;
+}
+
+p {
+    text-align: center;
+    color: #000;
+}
+
+body{
+    background: url("http://st2.depositphotos.com/1523669/6213/v/450/depositphotos_62137889-Abstract-background-with-numbers.jpg");
+    background-size: cover;
+}
+
+.botones {
+    text-align: center;
+}
+
+#cero {
+    margin-left: 4.8%;
+}

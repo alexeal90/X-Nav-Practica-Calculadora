@@ -1,0 +1,45 @@
+<html>
+	<head>
+ 		<title>Calculadora</title>
+		<link rel=StyleSheet href="calculadora.css"></link>
+ 	</head>
+	<body>
+	   <div class="calculadora">
+			 <p>Operacion seleccionada: <span id="operacion"></span> Primer operando: <span id="primerNum"></span></p>
+			 <p><span id="numero">0</span></p>
+			 <p>Resultado: <span id="display">0</span></p>
+			 <hr class="intro-divider">
+			 <div  class="botones">
+				 <div>
+	          <button id="uno" class="btn btn-default btn-lg" value="1">1</button>
+	          <button id="dos" class="btn btn-default btn-lg" value="2">2</button>
+	          <button id="tres" class="btn btn-default btn-lg" value="3">3</button>
+	          <button id="save" class="btn btn-danger btn-lg" value="MS">MS</button>
+            <button id="release" class="btn btn-danger btn-lg" value="MR">MR</button>
+					</div>
+	        <div>
+	          <button id="cuatro" class="btn btn-default btn-lg" value="4">4</button>
+	          <button id="cinco" class="btn btn-default btn-lg" value="5">5</button>
+	          <button id="seis" class="btn btn-default btn-lg" value="6">6</button>
+	          <button id="dividir" class="btn btn-default btn-lg" value="/">/</button>
+	          <button id="multiplicar" class="btn btn-default btn-lg" value="*">*</button>
+	        </div>
+	        <div>
+	          <button id="siete" class="btn btn-default btn-lg" value="7">7</button>
+	          <button id="ocho" class="btn btn-default btn-lg" value="8">8</button>
+	          <button id="nueve" class="btn btn-default btn-lg" value="9">9</button>
+	          <button id="sumar" class="btn btn-default btn-lg" value="+">+</button>
+	          <button id="restar" class="btn btn-default btn-lg" value="-">-</button>
+	        </div>
+	        <div>
+	          <button id="cero" class="btn btn-default btn-lg" value="0">0</button>
+	          <button id="punto" class="btn btn-default btn-lg" value=".">.</button>
+	          <button id="igual" class="btn btn-primary btn-lg" value="=">=</button>
+						<button id="borrar" class="btn btn-danger btn-lg" value="C">C</button>
+	        </div>
+		</div>
+	    </div>
+
+	<script src="calculadora.js"></script>
+  </body>
+</html>
